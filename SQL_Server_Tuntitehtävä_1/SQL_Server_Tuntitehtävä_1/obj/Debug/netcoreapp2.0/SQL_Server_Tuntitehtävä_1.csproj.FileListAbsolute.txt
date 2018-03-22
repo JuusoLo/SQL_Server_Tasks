@@ -6,3 +6,6 @@ C:\Dev\SQL_Server\SQL_Server_Tasks\SQL_Server_Tuntitehtävä_1\SQL_Server_Tuntit
 C:\Dev\SQL_Server\SQL_Server_Tasks\SQL_Server_Tuntitehtävä_1\SQL_Server_Tuntitehtävä_1\obj\Debug\netcoreapp2.0\SQL_Server_Tuntitehtävä_1.csproj.CoreCompileInputs.cache
 C:\Dev\SQL_Server\SQL_Server_Tasks\SQL_Server_Tuntitehtävä_1\SQL_Server_Tuntitehtävä_1\obj\Debug\netcoreapp2.0\SQL_Server_Tuntitehtävä_1.AssemblyInfoInputs.cache
 C:\Dev\SQL_Server\SQL_Server_Tasks\SQL_Server_Tuntitehtävä_1\SQL_Server_Tuntitehtävä_1\obj\Debug\netcoreapp2.0\SQL_Server_Tuntitehtävä_1.AssemblyInfo.cs
+C:\Dev\SQL_Server\SQL_Server_Tasks\SQL_Server_Tuntitehtävä_1\SQL_Server_Tuntitehtävä_1\bin\Debug\netcoreapp2.0\SQL_Server_Tuntitehtävä_1.pdb
+C:\Dev\SQL_Server\SQL_Server_Tasks\SQL_Server_Tuntitehtävä_1\SQL_Server_Tuntitehtävä_1\obj\Debug\netcoreapp2.0\SQL_Server_Tuntitehtävä_1.dll
+C:\Dev\SQL_Server\SQL_Server_Tasks\SQL_Server_Tuntitehtävä_1\SQL_Server_Tuntitehtävä_1\obj\Debug\netcoreapp2.0\SQL_Server_Tuntitehtävä_1.pdb

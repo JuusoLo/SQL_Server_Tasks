@@ -13,6 +13,19 @@ namespace SQL_Server_Tuntitehtävä_1.Model
             TablePhone2 = new HashSet<TablePhone2>();
         }
 
+        public TablePerson2(string name, short? age)
+        {
+            Name = name;
+            Age = age;
+        }
+
+        public TablePerson2(string name, short? age, ICollection<TablePhone2> tablePhone2)
+        {
+            Name = name;
+            Age = age;
+            TablePhone2 = tablePhone2;
+        }
+
         public long Id { get; set; }
         [Column(TypeName = "nchar(10)")]
         public string Name { get; set; }

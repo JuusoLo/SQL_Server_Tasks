@@ -1,4 +1,6 @@
 ﻿using System;
+using SQL_Server_Tuntitehtävä_1.Model;
+using SQL_Server_Tuntitehtävä_1.Repositories;
 
 namespace SQL_Server_Tuntitehtävä_1
 {
@@ -6,7 +8,11 @@ namespace SQL_Server_Tuntitehtävä_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Database CRUD operations");
+            TablePerson2 person = new TablePerson2("Jukka", 53);
+            PersonRepository.Create(person);
+            Console.WriteLine("Press <Enter> to Exit");
+            Console.ReadLine();
         }
     }
 }
