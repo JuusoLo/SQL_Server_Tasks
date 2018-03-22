@@ -1,0 +1,1 @@
+﻿{"ContextClassName":"Tuntitehtävä_2Context","DefaultDacpacSchema":null,"IdReplace":false,"IncludeConnectionString":true,"OutputPath":"Model","ProjectRootNamespace":"SQL_Server_Tuntitehtävä_1","SelectedToBeGenerated":0,"Tables":["dbo.Table_Person_2","dbo.Table_Phone_2"],"UseDatabaseNames":false,"UseFluentApiOnly":false,"UseHandleBars":false,"UseInflector":false}
