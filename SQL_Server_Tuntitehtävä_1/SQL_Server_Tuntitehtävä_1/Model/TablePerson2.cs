@@ -33,5 +33,10 @@ namespace SQL_Server_Tuntitehtävä_1.Model
 
         [InverseProperty("Person")]
         public ICollection<TablePhone2> TablePhone2 { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Name}, {Age}";
+        }
     }
 }
