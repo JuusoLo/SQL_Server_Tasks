@@ -5,38 +5,57 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SQL_Server_Tuntitehtävä_1.Model
 {
-    [Table("Table_Person_2")]
-    public partial class TablePerson2
+    public partial class Person
     {
-        public TablePerson2()
+        public Person()
         {
-            TablePhone2 = new HashSet<TablePhone2>();
+            Phone = new HashSet<Phone>();
         }
 
-        public TablePerson2(string name, short? age)
+        public Person(string name, short? age)
         {
             Name = name;
             Age = age;
+            Phone = new HashSet<Phone>();
         }
 
-        public TablePerson2(string name, short? age, ICollection<TablePhone2> tablePhone2)
+        public Person(string name, short? age, ICollection<Phone> phone)
         {
             Name = name;
             Age = age;
-            TablePhone2 = tablePhone2;
+            Phone = phone;
         }
 
         public long Id { get; set; }
-        [Column(TypeName = "nchar(10)")]
+        [Column(TypeName = "nchar(25)")]
         public string Name { get; set; }
         public short? Age { get; set; }
 
         [InverseProperty("Person")]
-        public ICollection<TablePhone2> TablePhone2 { get; set; }
+        public ICollection<Phone> Phone { get; set; }
+
+
+
+
 
         public override string ToString()
         {
-            return $"{Name}, {Age}";
+            string retValue = $"{Name}, {Age} ";
+
+
+            //if (Phone.Count == 0)
+            //    retValue += "Ei puhelinta!\n";
+            //foreach (var phnPhone in Phone)
+            //{
+            //    retValue += $"\n   {phnPhone.ToString()}";
+            //}
+            //retValue += "\n-------------\n";
+            return retValue;
+        }
+
+        public string ShowData()
+        {
+            return $"{Id}, {Name}, {Age}";
         }
     }
 }
